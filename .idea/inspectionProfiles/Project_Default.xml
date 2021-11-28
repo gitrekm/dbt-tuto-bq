@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="google-cloud-bigquery" />
+            <item index="1" class="java.lang.String" itemvalue="gsutil" />
+            <item index="2" class="java.lang.String" itemvalue="coverage" />
+            <item index="3" class="java.lang.String" itemvalue="tensorflow-data-validation" />
+            <item index="4" class="java.lang.String" itemvalue="httplib2" />
+            <item index="5" class="java.lang.String" itemvalue="dill" />
+            <item index="6" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="7" class="java.lang.String" itemvalue="apache-airflow-providers-google" />
+            <item index="8" class="java.lang.String" itemvalue="tensorflow" />
+            <item index="9" class="java.lang.String" itemvalue="pandas-gbq" />
+            <item index="10" class="java.lang.String" itemvalue="sphinx-autodoc-typehints" />
+            <item index="11" class="java.lang.String" itemvalue="google-cloud-pubsub" />
+            <item index="12" class="java.lang.String" itemvalue="google-api-python-client" />
+            <item index="13" class="java.lang.String" itemvalue="google-cloud-monitoring" />
+            <item index="14" class="java.lang.String" itemvalue="google-api-core" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="data_prep.tests.spark.pyspark_test_case.*" />
+          <option value="data_prep.utils" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
